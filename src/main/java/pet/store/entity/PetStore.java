@@ -24,7 +24,7 @@ public class PetStore {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     // the primary key
-   private int petStoreId; // may need to change this to int
+   private Long petStoreId; // may need to change this to int
 
     private String petStoreName;
     private String petStoreAddress;
